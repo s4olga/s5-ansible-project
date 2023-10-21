@@ -4,4 +4,15 @@
   become: yes
   become_user: root  
   roles:
-     - 
+     - users
+     - patching
+     - packages
+     - docker
+     - docker-compose
+     - awscli
+     - terraform
+     - helm
+     - kubens_kubectl
+
+     - reboot
+     
